@@ -23,7 +23,7 @@ contract SimpleStorage {
         addPerson(_name, _favNum);
     }
 
-    function store(string memory _name, uint8 _favNum) public {
+    function store(string memory _name, uint8 _favNum) public virtual {
         addPerson(_name, _favNum);
     }
 
